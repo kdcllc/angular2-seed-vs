@@ -1,6 +1,6 @@
 ## angular2-seed in Visual Studio.NET and Visual Studio Code
 
-This project template is based on official Angular2 Seed project: [angular2-see](https://github.com/angular/angular2-seed)
+This project template is based on official Angular2 Seed project: [angular2-seed](https://github.com/angular/angular2-seed)
 
 A simple starter project demonstrating the basic concepts of Angular2.
 
@@ -29,5 +29,17 @@ tsconfig.json file contains the following build definitions for the latest TypeS
 - open browser to `http://localhost:8080`
 
 ### Known Issues
+- webpack-dev-server --open flag support to force the default web browser to be open but it doesn't work.
 - angular2-polyfills.js is currently being handled manually. 
 - bundle size is large, due to inline sourcemaps from angular2 npm source.
+
+webpack.config.js server configuration
+
+```
+  devServer: {
+    historyApiFallback: true,
+    contentBase: ".",
+    host: "localhost",
+    port: 9000
+  }
+```

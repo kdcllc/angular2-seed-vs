@@ -4,10 +4,9 @@
 npm-debug.log
 
 ##Visual Studio.NET ignore
-.vs
+/.vs/
 /obj/
 /bin/
+/src/**/*.js
+/src/**/*.map
 .ntvs_analysis.dat
-src/**/*.js
-src/**/*.map
-
