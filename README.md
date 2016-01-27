@@ -6,9 +6,9 @@ A simple starter project demonstrating the basic concepts of Angular2.
 
 Webpack is used for Development. 
 
-### Usage with Visual Studio.NET
+## Usage with Visual Studio.NET
 
-# Adding build to Visual Studio.NET project file 
+### Adding build to Visual Studio.NET project file 
 tsconfig.json file contains the following build definitions for the latest TypeScript compiler
 ```
  "emitDecoratorMetadata": true,
