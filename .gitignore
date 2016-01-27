@@ -8,3 +8,6 @@ npm-debug.log
 /obj/
 /bin/
 .ntvs_analysis.dat
+src/**/*.js
+src/**/*.map
+
