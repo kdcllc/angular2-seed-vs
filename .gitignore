@@ -1,3 +1,10 @@
+## Node.js ignore files and folders
 /node_modules/
 /dist/
 npm-debug.log
+
+##Visual Studio.NET ignore
+.vs
+/obj/
+/bin/
+.ntvs_analysis.dat

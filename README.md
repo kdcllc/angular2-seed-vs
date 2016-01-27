@@ -1,10 +1,27 @@
-## angular2-seed
+## angular2-seed in Visual Studio.NET and Visual Studio Code
+
+This project template is based on official Angular2 Seed project: [angular2-see](https://github.com/angular/angular2-seed)
 
 A simple starter project demonstrating the basic concepts of Angular2.
 
-Work in progress! This branch uses Webpack for Development. There is also a SystemJS branch available.
+Webpack is used for Development. 
 
-### Usage
+### Usage with Visual Studio.NET
+
+# Adding build to Visual Studio.NET project file 
+tsconfig.json file contains the following build definitions for the latest TypeScript compiler
+```
+ "emitDecoratorMetadata": true,
+ "experimentalDecorators": true,
+```
+
+
+[TypeScript Compiler Options for MS-Build](https://github.com/Microsoft/TypeScript/wiki/Setting-Compiler-Options-in-MSBuild-projects)
+```
+ <TypeScriptEmitDecoratorMetadata>true</TypeScriptEmitDecoratorMetadata>
+ <TypeScriptExperimentalDecorators>true</TypeScriptExperimentalDecorators>
+```
+### Usage with Visual Studio Code
 - Clone or fork this repository
 - Make sure you have [node.js](https://nodejs.org/) installed
 - run `npm install` to install dependencies
