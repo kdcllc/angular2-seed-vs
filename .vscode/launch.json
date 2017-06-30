@@ -1,0 +1,28 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+        {
+            "name": "Attach",
+            "type": "chrome",
+            "request": "attach",
+            "port": 8080
+        },
+        {
+            "name": "Attach to url with files served from ./src",
+            "type": "chrome",
+            "request": "attach",
+            "port": 8080,
+            "webRoot": "./src",
+            "sourceMaps": true
+        }
+        ,
+        {
+            "name": "Launch localhost with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080/home",
+            "webRoot": "./src",
+            "sourceMaps": true
+        }
+   	]
+}
